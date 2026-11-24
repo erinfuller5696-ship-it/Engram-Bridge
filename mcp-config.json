@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "engram-notification-bridge": {
+      "command": "node",
+      "args": ["dist/server/index.js"],
+      "env": {
+        "API_PORT": "3001"
+      }
+    }
+  }
+}
